@@ -33,7 +33,7 @@ form {
 label {
 
     margin-top: 20px;
-    margin-bottom: 20px; /* Aumentado o espaçamento entre os rótulos e os campos */
+    margin-bottom: 20px; 
 }
 
 input {
@@ -41,7 +41,7 @@ input {
     border-width: 2px;
     border-style: dashed;
     border-radius: 10px;
-    padding: 20px; /* Aumentado o padding dos campos de input */
+    padding: 20px; 
 }
 
 button {
@@ -49,7 +49,7 @@ button {
     margin-top: 30px;
     background-color: black;
     color: white;
-    padding: 15px 20px; /* Aumentado o padding do botão */
+    padding: 15px 20px; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
