@@ -1,0 +1,68 @@
+*{ 
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo img {
+    width: 150px;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.form-container {
+    background-color: white;
+    padding: 70px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+
+    margin-top: 20px;
+    margin-bottom: 20px; /* Aumentado o espaçamento entre os rótulos e os campos */
+}
+
+input {
+
+    border-width: 2px;
+    border-style: dashed;
+    border-radius: 10px;
+    padding: 20px; /* Aumentado o padding dos campos de input */
+}
+
+button {
+
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    padding: 15px 20px; /* Aumentado o padding do botão */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+
+    background-color: #333;
+
+}
+
+
+button:hover {
+    
+    background-color: #333;
+}
