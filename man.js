@@ -1,7 +1,7 @@
 
-document.getElementById('meuFormulario').addEventListener('submit', function(event) {
+document.getElementById('form').addEventListener('submit', function(event) {
     
-    event.preventDefault();
+     event.preventDefault();
 
     
     let campoA = document.getElementById('campoA').value;
